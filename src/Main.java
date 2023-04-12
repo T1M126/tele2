@@ -3,10 +3,10 @@ public class Main {
         int start = 100;
         int add = 2000;
         int min = 100;
-        int bonus = add / min;
-        if (min <= 1000) {
+        int bonus;
+        if (add >= 1000) {
             bonus = add / min;
-        } else {
+        } else  {
             bonus = 0;
         }
         System.out.println("Итоговый бонус" + bonus);
