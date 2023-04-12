@@ -6,7 +6,7 @@ public class Main {
         int bonus = add / min;
         if (min <= 1000) {
             bonus = add / min;
-        } else if (min > 1000) {
+        } else {
             bonus = 0;
         }
         System.out.println("Итоговый бонус" + bonus);
