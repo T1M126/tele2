@@ -6,11 +6,13 @@ public class Main {
         int bonus = add / min;
         if (min <= 1000) {
             bonus = add / min;
-            if (min > 1000)
-                bonus = 0;
+        } else if (min > 1000) {
+            bonus = 0;
         }
         System.out.println("Итоговый бонус" + bonus);
         System.out.println("Итоговый счет" + (start + add + bonus));
     }
 }
+
+
 
